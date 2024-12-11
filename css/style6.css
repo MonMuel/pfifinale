@@ -42,10 +42,12 @@ nav {
     grid-template-rows: 1fr;
     text-align: center;
 
-    :hover {
-        color: blue;
 
-    }
+}
+
+nav :hover {
+    color: blue;
+
 }
 
 nav>span {
@@ -118,19 +120,23 @@ h1 {
     width: 200px;
     height: 70px;
     background-color: blue;
-    color:white;
+    color: white;
 }
+
 img {
     width: 100px;
     height: 100px;
     filter: invert(70%);
 }
-body{
+
+body {
     background-image: repeating-conic-gradient(rgba(255, 0, 0, 0.206) 0deg 10deg, rgba(255, 255, 0, 0.2) 10deg 20deg, rgba(0, 0, 255, 0.2) 20deg 30deg);
-  border-radius: 50%;
-  
+    border-radius: 50%;
+    background-repeat: no-repeat;
+
 }
-#lagrid{
+
+#lagrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;

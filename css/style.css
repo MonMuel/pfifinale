@@ -1,42 +1,50 @@
 @media screen and (max-width: 768px) {
-    article{
+    article {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
     }
-    article>aside{
+
+    article>aside {
         grid-row: 4/5;
         grid-column: 1/4;
-        display:flex ;
+        display: flex;
         margin-top: 10px;
     }
-    header>nav>a{
+
+    header>nav>a {
         font-size: 10px;
     }
+
     .nev {
         color: white;
         font-size: 12px;
     }
-    aside>div>h3{
+
+    aside>div>h3 {
         padding-left: 10px;
     }
 
 }
-aside>div>span>a{
+
+aside>div>span>a {
     color: red;
     text-decoration: none;
 }
-aside>div>span>a:hover{
-    color:blue;
+
+aside>div>span>a:hover {
+    color: blue;
 }
+
 body {
     background-image: url(../image/ny.jpeg);
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
     background-repeat: no-repeat;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 #mesinfo {
     grid-column: 2/3;
     grid-row: 3/4;
@@ -49,6 +57,7 @@ body {
     width: 300px;
     padding-left: 20px;
 }
+
 footer {
     grid-column: 1/5;
     grid-row: 4/5;
@@ -58,50 +67,60 @@ footer {
     grid-template-columns: auto;
     margin-top: 10px;
 }
-footer>span>a{
+
+footer>span>a {
     color: white;
     text-decoration: none;
 }
-footer>span>a:hover{
+
+footer>span>a:hover {
     color: red;
 }
-#nom{
-    grid-column:10/11;
+
+#nom {
+    grid-column: 10/11;
     font-size: 20px;
     padding: 8px;
 }
-#date{
-    grid-column:11/12;
+
+#date {
+    grid-column: 11/12;
     font-size: 20px;
     padding: 8px;
 }
-#source{
+
+#source {
     grid-column: 12/13;
     font-size: 20px;
     padding: 8px;
 }
+
 nav {
     display: grid;
     background-color: black;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr;
     text-align: center;
-    :hover{
-        color:blue;
-
-    }
 }
-nav>span{
+
+nav:hover {
+    color: blue;
+}
+
+nav>span {
     padding-top: 10px;
 }
-nav>span>a{
+
+nav>span>a {
     text-decoration: none;
     color: white;
     font-size: 23px;
 }
-.elar{
+
+.elar {
     padding-bottom: 15px;
 }
+
 aside {
     grid-column: 4/5;
     grid-row: 1/4;
@@ -112,12 +131,14 @@ aside {
     padding-right: 10px;
 
 }
+
 .p {
     background-color: rgba(0, 255, 98, 0.411);
     border-style: solid;
     border-color: black;
     padding-left: 10px;
 }
+
 #mesinteret {
     grid-row: 2/3;
     grid-column: 1/3;
@@ -125,6 +146,7 @@ aside {
     margin-right: auto;
     margin-right: 100px;
 }
+
 figure {
     grid-row: 3/4;
     grid-column: 1/2;
@@ -136,21 +158,24 @@ figure {
     border-right: none;
     padding: 10px 10px 10px 10px;
 }
+
 img {
 
     width: 200px;
     height: 300px;
     border-radius: 30%;
 }
+
 #titre {
     background-color: rgba(0, 255, 98, 0.411);
     border-style: solid;
     border-color: black;
     width: 200px;
     padding-left: 10px;
-    
+
 
 }
+
 article {
     grid-template-columns: min-content 1fr;
     grid-auto-rows: min-content min-content min-content;
@@ -159,30 +184,33 @@ article {
     grid-row: 2/4;
     margin-right: auto;
 }
+
 .div {
     display: grid;
-    grid-template-columns: auto ;
+    grid-template-columns: auto;
     grid-auto-rows: auto;
     background-size: cover;
     background-position: center;
 }
-h2{
+
+h2 {
     grid-column: 1/3;
     background-color: rgba(0, 255, 98, 0.411);
     border-style: solid;
     border-color: black;
     padding-left: 10px;
 }
+
 h1 {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.278), rgba(255, 255, 255, 0.278)),  url(../image/heder.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.278), rgba(255, 255, 255, 0.278)), url(../image/heder.jpg);
     text-align: center;
     height: 50px;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
-    color:black;
-}
-header{
-    grid-column: 1/5;
+    color: black;
 }
 
+header {
+    grid-column: 1/5;
+}

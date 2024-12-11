@@ -1,42 +1,52 @@
 @media only screen and (max-width: 768px) {
-    body{
+    body {
         font-size: 10px;
     }
-    .nev{
+
+    .nev {
         font-size: 9px;
     }
-    header{
+
+    header {
         width: 100%;
     }
-    #parti2{
+
+    #parti2 {
         display: flex;
         flex-direction: column;
     }
-    main{
+
+    main {
         display: grid;
     }
-    div>div{
+
+    div>div {
         padding: 10px;
     }
 }
-@media screen and (max-width:426px){
-    .petit{
+
+@media screen and (max-width:426px) {
+    .petit {
         width: 130px;
     }
 }
-img{
+
+img {
     width: 200px;
     float: right;
     border-radius: 10%;
 }
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    background:linear-gradient(rgba(126, 128, 0, 0.351),rgba(0, 0, 255, 0.424));
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgba(126, 128, 0, 0.351), rgba(0, 0, 255, 0.424));
 }
-.la{
+
+.la {
     display: flex;
     flex-direction: column;
 }
+
 nav {
     display: grid;
     background-color: black;
@@ -44,28 +54,34 @@ nav {
     grid-template-rows: 1fr;
     text-align: center;
     color: white;
-    :hover{
-        color:blue;
-    }
     font-size: 23px;
 }
-nav>span{
+
+nav :hover {
+    color: blue;
+}
+
+nav>span {
     padding-top: 10px;
 }
-a{
+
+a {
     text-decoration: none;
-    color: white;  
+    color: white;
 }
+
 .elar {
     padding-bottom: 15px;
 }
+
 h1 {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.278), rgba(255, 255, 255, 0.278)),  url(../image/heder.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.278), rgba(255, 255, 255, 0.278)), url(../image/heder.jpg);
     height: 50px;
     margin: 0px;
     color: black;
     text-align: center;
 }
+
 footer {
     grid-row: 5/6;
     grid-column: 1/4;
@@ -75,24 +91,29 @@ footer {
     grid-template-columns: auto;
     margin-top: 10px;
 }
-footer>span>a:hover{
+
+footer>span>a:hover {
     color: red;
 }
-#nom{
-    grid-column:10/11;
+
+#nom {
+    grid-column: 10/11;
     font-size: 20px;
     padding: 8px;
 }
-#date{
-    grid-column:11/12;
+
+#date {
+    grid-column: 11/12;
     font-size: 20px;
     padding: 8px;
 }
-#source{
+
+#source {
     grid-column: 12/13;
     font-size: 20px;
     padding: 8px;
 }
+
 #lamain {
     display: grid;
     grid-template-columns: auto;
@@ -100,241 +121,287 @@ footer>span>a:hover{
     padding-top: 10px;
     width: 100%
 }
+
 #premierePeriode {
     grid-column: 1/2;
     grid-row: 2/3;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 #deuxiemePeriode {
     grid-column: 1/2;
     grid-row: 3/4;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 #troisiemePeriode {
     grid-column: 1/2;
     grid-row: 4/5;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 #quatrePeriode {
     grid-column: 1/2;
     grid-row: 5/6;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 #cinqPeriode {
     grid-column: 1/2;
     grid-row: 6/7;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 #sixPeriode {
     grid-column: 1/2;
     grid-row: 7/8;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 #septePeriode {
     grid-column: 1/2;
     grid-row: 8/9;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 #huitPeriode {
     grid-column: 1/2;
     grid-row: 9/10;
-    font-weight:bold;
+    font-weight: bold;
 }
-.cour{
-    font-weight:bold;
+
+.cour {
+    font-weight: bold;
 }
-.cour2{
+
+.cour2 {
     font-style: italic;
 }
-p{
+
+p {
     margin: 0px;
 }
+
 #neufPeriode {
     grid-column: 1/2;
     grid-row: 10/11;
-    font-weight:bold;
+    font-weight: bold;
 
 }
-.border{
+
+.border {
     border-style: solid;
     border-bottom: none;
     text-align: center;
     padding-bottom: 25px;
     padding-top: 25px;
 }
-.border1{
+
+.border1 {
     border-style: solid;
     border-bottom: none;
     border-left: none;
     padding-left: 10px;
     padding-top: 5px;
 }
-.border02{
+
+.border02 {
     border-style: solid;
     border-bottom: none;
     border-left: none;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-.border2{
+
+.border2 {
     border-style: solid;
     border-left: none;
     padding-left: 10px;
     padding-top: 5px;
-    
+
 }
-.last{
+
+.last {
     border-style: solid;
     text-align: center;
     padding-bottom: 25px;
     padding-top: 25px;
-    
+
 }
+
 #dixPeriode {
     grid-column: 1/2;
     grid-row: 11/12;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 #onzePeriode {
     grid-column: 1/2;
     grid-row: 12/13;
-    font-weight:bold;
-}
-.gra{
     font-weight: bold;
-    text-decoration: underline ;
+}
+
+.gra {
+    font-weight: bold;
+    text-decoration: underline;
     text-align: center;
     display: block;
 }
+
 #progL {
     grid-column: 2/3;
     grid-row: 5/6;
     background-color: rgba(0, 128, 73, 0.302);
 }
+
 #progL2 {
     grid-column: 2/3;
     grid-row: 6/7;
     background-color: rgba(0, 128, 73, 0.302);
 
 }
-#mathL1{
+
+#mathL1 {
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: rgba(0, 0, 255, 0.424);
 }
+
 #mathL {
     grid-column: 2/3;
     grid-row: 4/3;
     background-color: rgba(0, 0, 255, 0.424);
 }
+
 #philo {
     grid-column: 2/3;
     grid-row: 10/11;
-    background-color:rgba(255, 0, 0, 0.466);
+    background-color: rgba(255, 0, 0, 0.466);
 
 }
+
 #philo2 {
     grid-column: 2/3;
     grid-row: 11/12;
-    background-color:rgba(255, 0, 0, 0.466);
+    background-color: rgba(255, 0, 0, 0.466);
 }
+
 #philo3 {
     grid-column: 2/3;
     grid-row: 12/13;
-    background-color:rgba(255, 0, 0, 0.466);
+    background-color: rgba(255, 0, 0, 0.466);
 }
+
 #mathM {
     grid-column: 3/4;
     grid-row: 6/7;
     background-color: rgba(0, 0, 255, 0.424);
 }
+
 #progM {
     grid-row: 7/8;
     grid-column: 3/4;
     background-color: rgba(0, 128, 73, 0.302);
 }
-#progM1{
+
+#progM1 {
     grid-column: 3/4;
     grid-row: 8/9;
     background-color: rgba(0, 128, 73, 0.302);
 }
-#exp1Me{
+
+#exp1Me {
     grid-column: 4/5;
     grid-row: 2/3;
     background-color: rgba(255, 166, 0, 0.523);
 
 }
-#exp2Me{
+
+#exp2Me {
     grid-column: 4/5;
     grid-row: 3/4;
     background-color: rgba(255, 166, 0, 0.523);
 
 }
-#exp3Me{
+
+#exp3Me {
     grid-column: 4/5;
-    grid-row:4/5 ;
+    grid-row: 4/5;
     background-color: rgba(255, 166, 0, 0.523);
 
 }
-#web1{
+
+#web1 {
     grid-column: 4/5;
     grid-row: 10/11;
     background-color: rgba(159, 42, 165, 0.417);
 }
-#web2{
+
+#web2 {
     grid-column: 4/5;
     grid-row: 11/12;
     background-color: rgba(159, 42, 165, 0.417);
 }
-#web3{
+
+#web3 {
     grid-column: 4/5;
     grid-row: 12/13;
     background-color: rgba(159, 42, 165, 0.417);
 }
-#progJ1{
+
+#progJ1 {
     grid-column: 5/6;
     grid-row: 2/3;
     background-color: rgba(0, 128, 73, 0.302);
 }
-#progJ2{
+
+#progJ2 {
     grid-column: 5/6;
-    grid-row:3/4;
+    grid-row: 3/4;
     background-color: rgba(0, 128, 73, 0.302);
 }
-#mathJ1{
+
+#mathJ1 {
     grid-column: 5/6;
     grid-row: 7/8;
     background-color: rgba(0, 0, 255, 0.424);
 }
-#mathJ2{
+
+#mathJ2 {
     grid-column: 5/6;
     grid-row: 8/9;
     background-color: rgba(0, 0, 255, 0.424);
 }
-#progV1{
+
+#progV1 {
     grid-column: 6/7;
     grid-row: 7/8;
     background-color: rgba(0, 128, 73, 0.302);
 }
-#progV2{
+
+#progV2 {
     grid-column: 6/7;
     grid-row: 8/9;
     background-color: rgba(0, 128, 73, 0.302);
 }
-#expV1{
+
+#expV1 {
     grid-column: 6/7;
     grid-row: 11/12;
     background-color: rgba(255, 166, 0, 0.523);
 }
-#expV2{
+
+#expV2 {
     grid-column: 6/7;
     grid-row: 12/13;
     background-color: rgba(255, 166, 0, 0.523);
 }
-#parti2{
+
+#parti2 {
     display: flex;
 }
-.perfec{
+
+.perfec {
     margin-top: 20px;
     margin-right: 10px;
     border-style: solid;
@@ -342,7 +409,7 @@ p{
     padding-right: 20px;
     padding-bottom: 10px;
 }
-header{
-    padding:10px;
-}
 
+header {
+    padding: 10px;
+}
