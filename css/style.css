@@ -73,6 +73,11 @@ footer>span>a {
     text-decoration: none;
 }
 
+nav :hover {
+    color: blue;
+
+}
+
 footer>span>a:hover {
     color: red;
 }

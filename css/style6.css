@@ -1,3 +1,66 @@
+@media screen and (max-width: 768px) {
+    body {
+        display: grid;
+        background-attachment: fixed;
+    }
+
+    #lagrid {
+        grid-template-columns: 1fr;
+    }
+
+    header>h1 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .nev {
+        color: white;
+        font-size: 10px;
+    }
+
+    #un {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    #deux {
+        grid-row: 7/8;
+        grid-column: 1/2;
+    }
+
+    #trois {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    #quatre {
+        grid-row: 9/10;
+        grid-column: 1/2;
+
+    }
+
+    #dropdown {
+        grid-row: 6/7;
+        grid-column: 1/2;
+    }
+
+    #img {
+        grid-row: 8/9;
+        grid-column: 1/2;
+    }
+
+    #over {
+        grid-row: 4/5;
+    }
+
+    #cinq {
+        grid-column: 1/2;
+        grid-row: 10/11;
+    }
+
+
+}
+
 footer {
     grid-column: 1/5;
     grid-row: 4/5;
@@ -21,6 +84,11 @@ footer>span>a:hover {
     grid-column: 10/11;
     font-size: 20px;
     padding: 8px;
+}
+
+h3 {
+    grid-column: 1/7;
+    padding-left: 15px;
 }
 
 #date {
@@ -80,11 +148,14 @@ h1 {
     padding: 16px;
     font-size: 16px;
     border: none;
+
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+    grid-row: 3/4;
+    padding-top: 10px;
 }
 
 .dropdown-content {
@@ -121,23 +192,77 @@ h1 {
     height: 70px;
     background-color: blue;
     color: white;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-top: 10px;
 }
 
 img {
     width: 100px;
     height: 100px;
     filter: invert(70%);
+    grid-row: 5/6;
+    padding-top: 10px;
+}
+
+#un {
+
+    margin-left: 15px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    padding-right: 10px;
+
+}
+
+.deux {
+    margin-left: 15px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    grid-row: 3/4;
+    padding-right: 10px;
+}
+
+.trois {
+    margin-left: 15px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    grid-row: 4/5;
+    padding-right: 10px;
+}
+
+.quatre {
+    margin-left: 15px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    grid-row: 5/6;
+    padding-right: 10px;
+}
+
+.cinq {
+    margin-left: 15px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    grid-column: 3/4;
+    padding-right: 10px;
+
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-image: repeating-conic-gradient(rgba(255, 0, 0, 0.206) 0deg 10deg, rgba(255, 255, 0, 0.2) 10deg 20deg, rgba(0, 0, 255, 0.2) 20deg 30deg);
-    border-radius: 50%;
     background-repeat: no-repeat;
-
 }
 
-#lagrid {
+.lagrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
 }
