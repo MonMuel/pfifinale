@@ -11,11 +11,6 @@
         display: flex;
         margin-top: 10px;
     }
-
-    header>nav>a {
-        font-size: 10px;
-    }
-
     .nev {
         color: white;
         font-size: 12px;
@@ -23,6 +18,9 @@
 
     aside>div>h3 {
         padding-left: 10px;
+    }
+    nav>a{
+        font-size: 10px;
     }
 
 }
