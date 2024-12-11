@@ -3,9 +3,8 @@
         display: grid;
     }
 
-    html body {
-        height: 100%;
-        width: 100%;
+    #div {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -85,6 +84,7 @@ footer {
     display: grid;
     grid-template-columns: auto;
     margin-top: 10px;
+    grid-column: 1/4;
 }
 
 footer>span>a {
