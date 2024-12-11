@@ -1,0 +1,73 @@
+h1 {
+    background-image:linear-gradient(rgba(255, 255, 255, 0.278), rgba(255, 255, 255, 0.278)),  url(../image/heder.jpg);
+    text-align: center;
+    height: 50px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:black
+}
+nav {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    text-align: center;
+    :hover{
+        color:blue;
+
+    }
+}
+nav>span{
+    padding-top: 10px;
+}
+nav>span>a{
+    text-decoration: none;
+}
+.nev{
+    color:white;
+    font-size: 23px;
+
+}
+.elar{
+    padding-bottom: 15px;
+}
+td,table{
+    border-style: solid;
+    border-collapse: collapse; 
+}
+table{
+    margin:auto;
+}
+h2{
+    text-align: center;
+}
+footer {
+    background-color: rgba(0, 0, 255, 0.714);
+    color: white;
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 10px;
+}
+footer>span>a{
+    color: white;
+    text-decoration: none;
+}
+footer>span>a:hover{
+    color: red;
+}
+#nom{
+    grid-column:10/11;
+    font-size: 20px;
+    padding: 8px;
+}
+#date{
+    grid-column:11/12;
+    font-size: 20px;
+    padding: 8px;
+}
+#source{
+    grid-column: 12/13;
+    font-size: 20px;
+    padding: 8px;
+}
